@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #66ccff;
+}
+
+h1
+{
+    font-size: 14px;
+}
+
+p
+{
+    color: red;
+    font-size: 10px;
+}
+
+#blue1
+{
+    color: blue;
+}
