@@ -5,6 +5,25 @@
         <meta charset="UTF-8">
         <title>JavcaScript Test</title>
         <script src="test.js"></script>
+        <script>
+        function check(e)
+        {
+            console.log(e.value + "がクリックされました");
+        }
+
+        function YesNo()
+        {
+            var result = confirm("いいですか?");
+            if(result)
+            {
+                console.log("OK");
+            }
+            else
+            {
+                console.log("キャンセル");
+            }
+        }
+        </script>
     </head>
     <body>
         <h1>ようこそ!!</h1>
@@ -18,5 +37,13 @@
             <form name="edit" action="test.php" method="post">
                 <label>テスト入力<input type="text" name="username"></label>
             </form>
+        <button onclick="alert('Hello!!');">クリック</button>
+        <button onclick="console.log(window.location.href)">href</button>
+        <button onclick="YesNo();">Yes No</button>
+        <input type="button" value="ボタン1" onclick="check(this);">
+        <input type="button" value="ボタン2" onclick="check(this);">
+        <input type="button" value="ボタン3" onclick="check(this);">
+        <br>
+        <img src="images/manju.jpg" height="640" width="320" onmouseover="console.log('カーソルが乗っています');" onmouseout="console.log('カーソルが外れました');">
     </body>
 </html>
