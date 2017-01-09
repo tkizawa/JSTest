@@ -17,12 +17,13 @@ else
     conso.log("aの方が大きい");
 }
 
-
 func(1,2);
 console.log(func2(2,3));
 func3();
-// console.log(x1);
-func3();
+
+////////////////////////////////
+// 関数
+////////////////////////////////
 
 function func(x,y)
 {
