@@ -21,6 +21,9 @@ func(1,2);
 console.log(func2(2,3));
 func3();
 
+var f = func3;
+f();
+
 ////////////////////////////////
 // 関数
 ////////////////////////////////
@@ -40,5 +43,6 @@ function func3()
     var x1=1;
     var y1=2;
 
+    console.log("TEST");
     console.log(x1+y1);
 }
